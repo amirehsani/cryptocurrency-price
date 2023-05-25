@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <title>Crypto Prices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        li span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crypto Prices</h1>
+    <ul>
+        {% for coin, price in coin_prices.items() %}
+        <li>
+            <span>{{ coin }}</span>: {{ price }} USD
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
