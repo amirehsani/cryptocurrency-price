@@ -1,0 +1,26 @@
+1. analyse what script.js do?
+
+2. what is this error while pushing to Git? unable to access 'https://github.com/amirehsani/cryptocurrency-price.git/':
+gnutls_handshake() failed: The TLS connection was non-properly terminated.
+
+3. what does this code do? : python3 -m http.server
+
+4. add the ability to read price data from API, just like the classic version
+
+5. Flask file structure
+
+6. Should we convert this code to Django?
+
+7. What does the get_coin_prices func in app.py do?
+
+8. add more styling
+
+9. display price changes in different timeframes, besides the current price
+
+10. display the current time and date
+
+11. how does a web app work when frontend and backend are separated?
+
+12. Containerizing the project
+
+13. add logo of the coin besides its name
