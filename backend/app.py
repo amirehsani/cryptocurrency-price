@@ -19,4 +19,4 @@ def get_coin_prices():
 
 
 if __name__ == '__main__':
-    app.run(port=8010)
+    app.run(port=5000)
