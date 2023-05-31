@@ -1,9 +1,6 @@
 1. analyse what script.js do?
 
-2. what is this error while pushing to Git? unable to access 'https://github.com/amirehsani/cryptocurrency-price.git/':
-gnutls_handshake() failed: The TLS connection was non-properly terminated.
-
-3. what does this code do? : python3 -m http.server
+3. DONE what does this code do? : python3 -m http.server
 
 4. add the ability to read price data from API, just like the classic version
 
@@ -13,7 +10,7 @@ gnutls_handshake() failed: The TLS connection was non-properly terminated.
 
 7. What does the get_coin_prices func in app.py do?
 
-8. add more styling
+8. DONE add more styling
 
 9. display price changes in different timeframes, besides the current price
 
@@ -24,3 +21,20 @@ gnutls_handshake() failed: The TLS connection was non-properly terminated.
 12. Containerizing the project
 
 13. add logo of the coin besides its name
+
+14. more about http.server (link in DDC course channel)
+
+
+
+Message Broking
+Socket
+Next.js
+API Documentation
+SE documentation
+Containerizing
+A brief look over Flask
+Implementation on Fast API
+Containerizing
+JWT-Authentication
+Python async
+NginX, GUnicorn, ASGI, WSGI

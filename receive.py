@@ -26,12 +26,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(port=8007)
-
-
-""" Before fixing the error with SSL """
-
-# def get_coin_prices():
-#     coins = ["bitcoin", "ethereum", "bitcoin-cash", "ripple", "monero", "dogecoin"]
-#     response = requests.get(f'https://api.coingecko.com/api/v3/simple/price?ids={",".join(coins)}&vs_currencies=usd')
-#     data = response.json()
-#     return {coin: data[coin]['usd'] for coin in coins}
